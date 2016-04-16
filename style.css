@@ -103,14 +103,11 @@ div {
 }
 
 .searchbox {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px auto 30px auto;
   display: block;
   border: 1px solid #d9d9d9;
   padding: 10px;
   width: 416px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .micro {
@@ -118,4 +115,37 @@ div {
   float: right;
   width: 24px;
   height: 24px;
+}
+
+.keyboard {
+  display: block;
+  float: right;
+  padding: 5px;
+  padding-right: 10px;
+  width: 19px;
+  height: 11px;
+  opacity: 0.55;
+}
+
+.keyboard:hover {
+  opacity: 1;
+}
+
+.btn {
+  font-weight: bold;
+  line-height: 36px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  font-size: 13px;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+}
+
+.btn:hover {
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 1px #888888;
+  color: #000;
 }

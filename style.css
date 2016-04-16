@@ -73,18 +73,49 @@ div {
 .logo {
   background-image: url(https://www.google.pt/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
   background-repeat: no-repeat;
-  background-clip: border-box;
-  background-origin: padding-box;
+  background-position: center;
   background-size: 272px 92px;
   display: block;
   height: 92px;
-  text-align: left;
+  text-align: center;
 }
 
 .logo-subtext {
   color: #4285f4;
   font: 16px roboto-regular, arial, sans-serif;
   position: relative;
-  left: 215px;
+  left: 110px;
   top: 76px;
+}
+
+.search {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  background: url(&quot;data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D&quot;) transparent;
+  width: 350px;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.searchbox {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+  width: 416px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.micro {
+  display: block;
+  float: right;
+  width: 24px;
+  height: 24px;
 }

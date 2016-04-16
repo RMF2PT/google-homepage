@@ -1,6 +1,7 @@
 body {
   font-family: arial, sans-serif;
   color: #222;
+  margin: 0;
 }
 
 div {
@@ -17,7 +18,7 @@ div {
 .navbar {
   position: absolute;
   right: 0;
-  top: -295px;
+  top: -305px;
   width: 100%;
 }
 
@@ -37,6 +38,8 @@ div {
   vertical-align: middle;
   white-space: nowrap;
   padding-right: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .login {
@@ -151,8 +154,6 @@ div {
 }
 
 .footer {
-  display: block;
-  color: #222;
   position: absolute;
   border-top: 1px solid #e4e4e4;
   left: 0;
@@ -160,69 +161,9 @@ div {
   bottom: 0;
   line-height: 40px;
   min-width: 980px;
-  height: 136px;
+  height: 40px;
   margin-left: -27px;
-}
 
-.top-footer {
-  height: 96px;
-  border-bottom: 1px solid rgb(228, 228, 228);
-  margin-left: 27px;
-  width: 980px;
-  display: table;
-}
-
-.shield {
-  display: table-cell;
-  padding-left: 24px;
-  padding-top: 24px;
-  vertical-align: middle;
-  width: 48px;
-  height: 48px;
-}
-
-.footer-text {
-  display: table-cell;
-  font-size: 24px;
-  padding-left: 24px;
-  padding-top: 10px;
-  vertical-align: middle;
-  width: 908px;
-  height: 45px;
-}
-
-.footer-text-a {
-  display: table-cell;
-  color: #4285F4;
-  font-size: 14px;
-  padding: 14px 8px;
-  vertical-align: middle;
-  min-width: 200px;
-  height: 45px;
-  text-align: center;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.footer-btn {
-  display: inline-block;
-  font-size: 14px;
-  padding: 0 4px;
-  margin: 0 4px;
-  line-height: 16px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: rgb(66, 133, 244);
-  border-radius: 2px;
-  border: 0 none #fff;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 16);
-  color: #fff;
-  width: auto;
-  height: 36px;
-  min-width: 127px;
-  position: relative;
-  vertical-align: middle;
 }
 
 .fbar {
@@ -231,6 +172,13 @@ div {
   line-height: 40px;
   margin-left: -27px;
   font-size: 13px;
+  min-width: 980px;
+  padding-bottom: 40px;
+}
+
+.fbar li {
+  height: 40px;
+  padding-top: 10px;
 }
 
 .left {

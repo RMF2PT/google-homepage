@@ -190,3 +190,54 @@ div {
   width: 908px;
   height: 45px;
 }
+
+.footer-text-a {
+  display: table-cell;
+  color: #4285F4;
+  font-size: 14px;
+  padding: 14px 8px;
+  vertical-align: middle;
+  min-width: 200px;
+  height: 45px;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-btn {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 4px;
+  margin: 0 4px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(66, 133, 244);
+  border-radius: 2px;
+  border: 0 none #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 16);
+  color: #fff;
+  width: auto;
+  height: 36px;
+  min-width: 127px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.fbar {
+  background-color: #F2F2F2;
+  color: #66666A;
+  line-height: 40px;
+  margin-left: -27px;
+  font-size: 13px;
+}
+
+.left {
+  float: left;
+  margin-left: 27px;
+}
+
+.right {
+  float: right;
+}

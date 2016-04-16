@@ -149,3 +149,44 @@ div {
   box-shadow: 0 1px #888888;
   color: #000;
 }
+
+.footer {
+  display: block;
+  color: #222;
+  position: absolute;
+  border-top: 1px solid #e4e4e4;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  line-height: 40px;
+  min-width: 980px;
+  height: 136px;
+  margin-left: -27px;
+}
+
+.top-footer {
+  height: 96px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  margin-left: 27px;
+  width: 980px;
+  display: table;
+}
+
+.shield {
+  display: table-cell;
+  padding-left: 24px;
+  padding-top: 24px;
+  vertical-align: middle;
+  width: 48px;
+  height: 48px;
+}
+
+.footer-text {
+  display: table-cell;
+  font-size: 24px;
+  padding-left: 24px;
+  padding-top: 10px;
+  vertical-align: middle;
+  width: 908px;
+  height: 45px;
+}
